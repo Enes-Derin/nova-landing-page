@@ -1,5 +1,5 @@
 import React from 'react';
-import tabletImg from '../img/tablet.png'; // Dosya yolu Navbar.js konumuna göre ayarlayın
+import tabletImg from '../img/tablet.png';
 
 function Navbar() {
     return (

@@ -1,6 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
+import pcImg from '../img/pc.png';
+import manImg from '../img/man.png';
 
 function ProductShowcase() {
     return (
@@ -10,14 +12,14 @@ function ProductShowcase() {
             {/* Üst kısım: Resim ve İlk Testimonial */}
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl mx-auto px-6 sm:px-10 py-10 justify-center'>
                 <div className="left h-64 sm:h-80 w-full relative">
-                    <img className="w-full h-full object-cover rounded-lg" src="src/img/pc.png" alt="PC" />
+                    <img className="w-full h-full object-cover rounded-lg" src={pcImg} alt="PC" />
                 </div>
                 <div className='text-left'>
                     <p className='text-2xl sm:text-3xl font-bold text-center md:text-left'>Testimonials</p>
                     <div className='border border-black rounded-lg p-4 sm:p-6 mt-6 sm:mt-10 pb-6 sm:pb-10 hover:bg-white hover:text-black transition-colors duration-300'>
                         <div className='grid grid-cols-3 gap-4 mt-6 sm:mt-10 items-center'>
                             <div className="flex justify-center md:justify-end items-center">
-                                <img src="src/img/man.png" className="rounded-full w-12 h-12 sm:w-16 sm:h-16" alt="Enes Derin" />
+                                <img src={manImg} className="rounded-full w-12 h-12 sm:w-16 sm:h-16" alt="Enes Derin" />
                             </div>
 
                             <div className='col-span-2'>
@@ -44,7 +46,7 @@ function ProductShowcase() {
                 <div className='border border-black rounded-lg p-4 sm:p-6 mt-6 sm:mt-10 pb-6 sm:pb-10 hover:bg-white hover:text-black transition-colors duration-300'>
                     <div className='grid grid-cols-3 gap-4 mt-6 sm:mt-10 items-center'>
                         <div className="flex justify-center md:justify-end items-center">
-                            <img src="src/img/man.png" className="rounded-full w-12 h-12 sm:w-16 sm:h-16" alt="Enes Derin" />
+                            <img src={manImg} className="rounded-full w-12 h-12 sm:w-16 sm:h-16" alt="Enes Derin" />
                         </div>
                         <div className='col-span-2'>
                             <div className='font-bold text-sm sm:text-base'>Enes Derin</div>
@@ -66,7 +68,7 @@ function ProductShowcase() {
                 <div className='border border-black rounded-lg p-4 sm:p-6 mt-6 sm:mt-10 pb-6 sm:pb-10 hover:bg-white hover:text-black transition-colors duration-300'>
                     <div className='grid grid-cols-3 gap-4 mt-6 sm:mt-10 items-center'>
                         <div className="flex justify-center md:justify-end items-center">
-                            <img src="src/img/man.png" className="rounded-full w-12 h-12 sm:w-16 sm:h-16" alt="Enes Derin" />
+                            <img src={manImg} className="rounded-full w-12 h-12 sm:w-16 sm:h-16" alt="Enes Derin" />
                         </div>
                         <div className='col-span-2'>
                             <div className='font-bold text-sm sm:text-base'>Enes Derin</div>
@@ -88,7 +90,7 @@ function ProductShowcase() {
                 <div className='border border-black rounded-lg p-4 sm:p-6 mt-6 sm:mt-10 pb-6 sm:pb-10 hover:bg-white hover:text-black transition-colors duration-300'>
                     <div className='grid grid-cols-3 gap-4 mt-6 sm:mt-10 items-center'>
                         <div className="flex justify-center md:justify-end items-center">
-                            <img src="src/img/man.png" className="rounded-full w-12 h-12 sm:w-16 sm:h-16" alt="Enes Derin" />
+                            <img src={manImg} className="rounded-full w-12 h-12 sm:w-16 sm:h-16" alt="Enes Derin" />
                         </div>
                         <div className='col-span-2'>
                             <div className='font-bold text-sm sm:text-base'>Enes Derin</div>
